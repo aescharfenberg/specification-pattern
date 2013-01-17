@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NevermindDreams.Patterns.Specification")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("NevermindDreams Specification Pattern")]
+[assembly: AssemblyDescription("A .NET (C#) implementation of the Specification pattern developed by Eric Evans and Martin Fowler.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NevermindDreams.Patterns.Specification")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCompany("Allen Scharfenberg")]
+[assembly: AssemblyProduct("NevermindDreams Specification Pattern")]
+[assembly: AssemblyCopyright("Copyright © 2013 Allen Scharfenberg")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,7 +32,7 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("0.1.0.0")]
+[assembly: AssemblyFileVersion("0.1.0.0")]
 
 [assembly: InternalsVisibleTo("NevermindDreams.Patterns.Specification.Tests.Unit")]

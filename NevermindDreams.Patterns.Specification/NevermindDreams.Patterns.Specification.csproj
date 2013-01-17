@@ -40,11 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AndSpecification.cs" />
-    <Compile Include="CompositeSpecification.cs" />
+    <Compile Include="BinaryCompositeSpecification.cs" />
+    <Compile Include="NaryCompositeSpecification.cs" />
     <Compile Include="SpecificationExtensions.cs" />
     <Compile Include="NotSpecification.cs" />
     <Compile Include="OrSpecification.cs" />
-    <Compile Include="PredicatedSpecification.cs" />
+    <Compile Include="PredicateSpecification.cs" />
     <Compile Include="ISpecification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

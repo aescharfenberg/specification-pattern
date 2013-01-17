@@ -57,6 +57,10 @@
     <Compile Include="OrSpecificationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MockRepositoryExtensions.cs" />
+    <Compile Include="NaryCompositeSpecificationTests.cs" />
+    <Compile Include="NotSpecificationTests.cs" />
+    <Compile Include="PredicateSpecificationTests.cs" />
+    <Compile Include="SpecificationExtensionsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

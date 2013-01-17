@@ -5,16 +5,17 @@ using System.Text;
 
 namespace NevermindDreams.Patterns.Specification
 {
-    class OrSpecification<TSubject> : CompositeSpecification<TSubject>
+    class OrSpecification<TSubject> : BinaryCompositeSpecification<TSubject>
     {
-        public OrSpecification(IEnumerable<ISpecification<TSubject>> specifications)
-            : base(specifications)
+        public OrSpecification(ISpecification<TSubject> leftSpecification,
+                               ISpecification<TSubject> rightSpecification)
+            : base(leftSpecification, rightSpecification)
         {
         }
 
         public override bool IsSatisfiedBy(TSubject subject)
         {
-            return Specifications.Any((specification) => specification.IsSatisfiedBy(subject));
+            return LeftSpecification.IsSatisfiedBy(subject) || RightSpecification.IsSatisfiedBy(subject);
         }
     }
 }

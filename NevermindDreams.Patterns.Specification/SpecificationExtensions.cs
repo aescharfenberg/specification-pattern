@@ -10,25 +10,13 @@ namespace NevermindDreams.Patterns.Specification
         public static ISpecification<TSubject> And<TSubject>(this ISpecification<TSubject> value,
                                                              ISpecification<TSubject> specification)
         {
-            return new AndSpecification<TSubject>(new[] {value, specification});
-        }
-
-        public static ISpecification<TSubject> And<TSubject>(this ISpecification<TSubject> value,
-                                                             params ISpecification<TSubject>[] specifications)
-        {
-            return new AndSpecification<TSubject>(specifications.Union(new[] {value}));
+            return new AndSpecification<TSubject>(value, specification);
         }
 
         public static ISpecification<TSubject> Or<TSubject>(this ISpecification<TSubject> value,
                                                             ISpecification<TSubject> specification)
         {
-            return new OrSpecification<TSubject>(new[] {value, specification});
-        }
-
-        public static ISpecification<TSubject> Or<TSubject>(this ISpecification<TSubject> value,
-                                                            params ISpecification<TSubject>[] specifications)
-        {
-            return new OrSpecification<TSubject>(specifications.Union(new[] {value}));
+            return new OrSpecification<TSubject>(value, specification);
         }
 
         public static ISpecification<TSubject> Not<TSubject>(this ISpecification<TSubject> value)
