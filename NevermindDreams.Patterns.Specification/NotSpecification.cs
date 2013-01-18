@@ -2,6 +2,9 @@
 
 namespace NevermindDreams.Patterns.Specification
 {
+    /// <summary>
+    /// A specification that is satisfied by negating the specification provided.
+    /// </summary>
     internal class NotSpecification<TSubject> : ISpecification<TSubject>
     {
         private readonly ISpecification<TSubject> specification;

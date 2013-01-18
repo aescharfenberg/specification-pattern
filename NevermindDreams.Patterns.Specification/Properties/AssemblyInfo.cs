@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NevermindDreams Specification Pattern")]
+[assembly: AssemblyTitle("NevermindDreams Specification Pattern Library")]
 [assembly: AssemblyDescription("A .NET (C#) implementation of the Specification pattern developed by Eric Evans and Martin Fowler.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Allen Scharfenberg")]
-[assembly: AssemblyProduct("NevermindDreams Specification Pattern")]
+[assembly: AssemblyProduct("NevermindDreams Specification Pattern Library")]
 [assembly: AssemblyCopyright("Copyright © 2013 Allen Scharfenberg")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

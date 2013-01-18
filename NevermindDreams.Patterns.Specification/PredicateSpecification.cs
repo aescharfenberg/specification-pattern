@@ -3,8 +3,7 @@
 namespace NevermindDreams.Patterns.Specification
 {
     /// <summary>
-    /// An implementation of the specification pattern that uses a lambda function
-    /// as the predicate for determining satisfaction.
+    /// An implementation of the specification pattern that uses a predicate for determining satisfaction.
     /// </summary>
     public class PredicateSpecification<TSubject> : ISpecification<TSubject>
     {
