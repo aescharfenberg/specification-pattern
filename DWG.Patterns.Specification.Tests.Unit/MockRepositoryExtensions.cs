@@ -1,6 +1,6 @@
 ﻿using Moq;
 
-namespace NevermindDreams.Patterns.Specification.Tests.Unit
+namespace DWG.Patterns.Specification.Tests.Unit
 {
     internal static class MockRepositoryExtensions
     {
